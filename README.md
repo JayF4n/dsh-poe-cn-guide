@@ -1,5 +1,7 @@
 # dsh-poe-cn-guide
 
+English | [中文](README.zh.md)
+
 A DeepSeek Harness plugin that ships the **poe-cn-guide** skill: translate Path of Exile build
 guides into Chinese with [poedb.tw/cn](https://poedb.tw/cn/) terminology, and deliver them as
 Excel where every gem name carries its real socket colour.
