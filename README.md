@@ -46,6 +46,21 @@ Put the package where the profile resolves plugins, e.g.
 
 Restart the app so the profile bundle reloads.
 
+### Directly from GitHub
+
+No npm publish and no marketplace listing needed. `dsh plugin add` accepts a git
+address, so the repo itself is an install source:
+
+```bash
+dsh plugin --profile desktop add github:JayF4n/dsh-poe-cn-guide
+# or pin a tag for reproducible installs:
+dsh plugin --profile desktop add github:JayF4n/dsh-poe-cn-guide#v1.0.0
+```
+
+The installer pins the resolved commit and fetches a `codeload.github.com` tarball —
+it does not `git clone`. Differences to a registry install: updates are followed via
+releases/tags rather than dist-tags, and `npm view`-style inspection is not available.
+
 ### Marketplace
 
 Once published, install it from the plugin market panel. `dshmarket` reads

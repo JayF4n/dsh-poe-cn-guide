@@ -55,6 +55,20 @@ cd dsh-poe-cn-guide && pnpm install --config.node-linker=hoisted && pnpm test
 
 重启应用，让 profile bundle 重新加载。
 
+### 从 GitHub 直装
+
+无需发 npm、也无需上架市场。`dsh plugin add` 接受 git 地址，仓库本身就是安装源：
+
+```bash
+dsh plugin --profile desktop add github:JayF4n/dsh-poe-cn-guide
+# 或钉住 tag，保证可重复安装：
+dsh plugin --profile desktop add github:JayF4n/dsh-poe-cn-guide#v1.0.0
+```
+
+安装器会解析并钉住所指 commit，然后从 `codeload.github.com` 下载 tarball——
+**不是** `git clone`。与 registry 安装的两点差异：更新要跟 Release/tag 走
+（没有 dist-tag 通道），且没有 `npm view` 式的安装前查询。
+
 ### 插件市场
 
 上架后可在插件市场面板一键安装。`dshmarket` 会读 `package.json` 里的
