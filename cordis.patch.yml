@@ -1,0 +1,5 @@
+# dsh bundle layer: register the poe-cn-guide skill provider (lib/index.js).
+# The skill body, dictionary and scripts ship inside skills/poe-cn-guide.
+- insert:
+    - id: poe-cn-guide
+      name: 'dsh-poe-cn-guide'

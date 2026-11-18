@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "note": "Terms outside the four bulk poedb listings. Every entry is re-verified against its poedb page title at build time; a mismatch aborts the build.",
+  "verifiedAt": "2026-11-18",
+  "verifiedAgainst": "https://poedb.tw/cn/"
+ },
+ "entries": {
+  "Pact_of_Lycia": {
+   "en": "Pact of Lycia",
+   "cn": "莉西娅契约",
+   "kind": "skill",
+   "note": "卓越宝石，grants_active_skill；列表页无颜色 class，故不记颜色"
+  },
+  "Perfect_Spirit_of_Fortune": {
+   "en": "Perfect Spirit of Fortune",
+   "cn": "完美运势之魂",
+   "kind": "spectre",
+   "note": "页面首行标记为「灵柩」"
+  },
+  "Perfect_Warlord": {
+   "en": "Perfect Warlord",
+   "cn": "完美督军",
+   "kind": "spectre",
+   "note": "页面首行标记为「灵柩」"
+  },
+  "Perfect_Guardian_Turtle": {
+   "en": "Perfect Guardian Turtle",
+   "cn": "完美守卫巨龟",
+   "kind": "spectre",
+   "note": "页面首行标记为「灵柩」"
+  },
+  "The_Maven": {
+   "en": "The Maven",
+   "cn": "贤主",
+   "kind": "boss"
+  },
+  "Allflame": {
+   "en": "Allflame",
+   "cn": "不灭之火",
+   "kind": "mechanic",
+   "note": "poedb 该页为任务物品条目；赛季机制同名"
+  }
+ }
+}
